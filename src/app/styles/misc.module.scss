@@ -1,0 +1,74 @@
+.accordion {
+    border-top: 1px solid #00000050;
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+
+    .count {
+        span {
+            font-family: var(--font-boska);
+            font-size: 64.1px;
+            line-height: 36.42px;
+            text-transform: uppercase;
+            color: #000000;
+            display: inline-flex;
+            margin-top: 10px;
+        }
+    }
+
+    .content {
+        cursor: pointer;
+        h3 {
+            margin: 0px;
+            font-family: var(--font-inter);
+            font-weight: 400 !important;
+            color: var(--black-color);
+            font-size: 33px;
+            text-transform: uppercase;
+            line-height: 1.3em;
+            letter-spacing: -0.3px;
+        }
+        div {
+            div {
+                padding: 15px 0px;
+                padding-left: 40px;
+                margin: 0px;
+                font-family: var(--font-inter);
+                font-weight: 300 !important;
+                color: #000000;
+                font-size: 14.5px;
+                letter-spacing: -0.1px;
+                line-height: 145%;
+            }
+        }
+    }
+
+    .cancel {
+        span {
+            transition: 0.3s all ease-in-out;
+            display: inline-flex;
+            transform: rotate(0deg);
+        }
+    }
+
+    &:hover {
+        .cancel {
+            span {
+                transform: rotate(15deg);
+            }
+        }
+    }
+
+    &.active {
+        .cancel {
+            span {
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
