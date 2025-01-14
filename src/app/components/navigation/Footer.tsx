@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.titleContainer}>
-                <h3 data-aos="zoom-in-up">Pastel Lab</h3>
+                <h3 data-aos="fade-up">Pastel Lab</h3>
             </div>
 
             <div className={styles.linkContainer}>

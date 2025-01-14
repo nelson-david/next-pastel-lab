@@ -5,7 +5,7 @@ import styles from "@/app/styles/section.module.scss";
 const HeroSection = () => {
     return (
         <header className={styles.heroSection}>
-            <div className={styles.heroBgImageWrapper}>
+            <div className={styles.heroBgImageWrapper} data-aos="slide-up">
                 <Image
                     src={HeroImg}
                     alt="hero-img"

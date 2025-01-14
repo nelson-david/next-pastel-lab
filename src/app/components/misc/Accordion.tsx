@@ -34,7 +34,7 @@ const Accordion = ({
                     : styles.accordion
             }
             onClick={toggleAccordion}
-            data-aos=""
+            data-aos="fade-up"
         >
             <div className={styles.count}>
                 <span>(0{index + 1})</span>

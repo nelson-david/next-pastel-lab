@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styles from "@/app/styles/card.module.scss";
 import Image from "next/image";
-import Work1Img from "@/assets/images/work-1.webp";
 import { WorkProps } from "@/app/types";
 
 const SingleWorkCard = ({ data }: { data: WorkProps }) => {

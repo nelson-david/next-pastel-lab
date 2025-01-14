@@ -1,12 +1,14 @@
 .heroSection {
     padding: 0px 25px;
+    margin-top: 45px;
     position: relative;
 
     .heroBgImageWrapper {
         overflow: hidden;
-        height: 90vh;
+        height: 92vh;
         overflow: hidden;
         position: relative;
+        border-radius: 20px;
         .heroBgImage {
             width: 100%;
             height: 100%;
@@ -25,6 +27,8 @@
 
         .wrapperContent {
             background-color: rgba(0, 0, 0, 0.25);
+            background-image: url("../../assets/images/asfalt-dark.png");
+            border-radius: 20px;
             border: 1px solid transparent;
             width: 100%;
             height: 100%;
@@ -68,7 +72,7 @@
                     color: rgb(255, 244, 226);
                     text-transform: uppercase;
                     white-space: pre;
-                    transform: scale(1.1);
+                    transform: scale(1.07);
                     text-align: center;
                     margin: 0px;
                 }
@@ -83,8 +87,8 @@
                         color: #fff4e2;
                         text-transform: uppercase;
                         font-family: var(--font-inter);
-                        font-weight: 300 !important;
-                        font-size: 23px;
+                        font-weight: 400 !important;
+                        font-size: 26px;
                         letter-spacing: -0.02em;
                         text-transform: uppercase;
                         text-decoration: none;
@@ -100,32 +104,33 @@
 
     .aboutCaptionContainer {
         padding: 50px 200px;
+        padding-bottom: 100px;
         display: flex;
         justify-content: flex-end;
 
         .content {
-            width: 600px;
+            width: 620px;
 
             h3 {
                 font-family: var(--font-inter);
-                font-weight: 300 !important;
+                font-weight: 400 !important;
                 color: var(--black-color);
-                font-size: 30px;
+                font-size: 32px;
                 text-transform: uppercase;
                 line-height: 1.5em;
-                letter-spacing: -0.4px;
+                letter-spacing: -0.5px;
                 padding: 5px;
                 margin: 0px;
             }
 
             p {
-                font-size: 22px;
-                font-weight: 400 !important;
-                font-family: var(--font-boska);
+                font-size: 21px;
+                font-weight: 300 !important;
+                font-family: var(--font-inter);
                 color: var(--black-color);
                 opacity: 0.9;
-                line-height: 38px;
-                letter-spacing: 0.4px;
+                line-height: 35px;
+                letter-spacing: 0.1px;
                 margin: 0px;
                 padding: 15px 5px;
             }
