@@ -1,5 +1,4 @@
 import CTASection from "./components/section/CTASection";
-import ExpertiseMarquee from "./components/section/ExpertiseMarquee";
 import HeroSection from "./components/section/HeroSection";
 import MiniMarquee from "./components/section/MiniMarquee";
 import SubAboutSection from "./components/section/SubAboutSection";
@@ -16,7 +15,6 @@ const Home = () => {
                 <MiniMarquee />
                 <WorkSection />
                 <CTASection />
-                <ExpertiseMarquee />
                 <WhatWeDoSection />
             </>
         </PageLayout>

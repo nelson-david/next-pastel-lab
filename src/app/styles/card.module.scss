@@ -68,3 +68,160 @@
         }
     }
 }
+
+.largeSingleWorkCard {
+    display: block;
+    border-top: 0.8px solid #00000070;
+    padding: 10px 0px;
+    padding-bottom: 50px;
+
+    .captionContent {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 6px;
+
+        p {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: var(--font-inter);
+            color: var(--black-color);
+            line-height: 8.9px;
+            font-feature-settings: normal;
+        }
+    }
+
+    .contentContainer {
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+
+        .titleWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 700px;
+            transition: 0.3s all ease-in-out;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            h2 {
+                margin: 0px;
+                font-family: var(--font-inter);
+                font-weight: 400 !important;
+                font-size: 87px;
+                color: var(--black-color);
+                line-height: 1em;
+                text-transform: uppercase;
+                text-align: left;
+            }
+        }
+
+        .imageWrapper {
+            width: 390px;
+            height: 236px;
+            overflow: hidden;
+            border-radius: 8px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: 0.25s all ease-in-out;
+
+                &:hover {
+                    transform: scale(1.12);
+                }
+            }
+        }
+    }
+}
+
+.singleFounderCard {
+    width: 350px;
+
+    .imageWrapper {
+        height: 420px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .contentWrapper {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h4 {
+            margin: 0px;
+            text-transform: uppercase;
+            font-family: var(--font-inter);
+            font-size: 26px;
+            font-weight: 500 !important;
+            line-height: 36px;
+            color: var(--black-color);
+        }
+
+        p {
+            margin: 0px;
+            font-family: var(--font-inter);
+            font-size: 15.3px;
+            font-weight: 400 !important;
+            color: var(--black-color);
+            letter-spacing: -0.1px;
+        }
+    }
+}
+
+.singleHypeCard {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    padding: 30px 15px;
+
+    .contentWrapper {
+        width: 500px;
+
+        h3 {
+            margin: 0px;
+            font-family: var(--font-boska);
+            font-size: 58px;
+            font-weight: 500 !important;
+            line-height: 1em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--black-color);
+        }
+
+        p {
+            margin: 0px;
+            padding: 30px 5px;
+            font-family: var(--font-inter);
+            font-size: 22px;
+            font-weight: 300 !important;
+            line-height: 1.6em;
+            text-align: start;
+            color: var(--black-color);
+        }
+    }
+
+    .imageWrapper {
+        width: 515px;
+        height: 515px;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

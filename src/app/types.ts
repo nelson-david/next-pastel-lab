@@ -14,3 +14,13 @@ export type IconProps = {
         height: string;
     };
 };
+
+export type AwardProps = {
+    title: string;
+    times: number;
+};
+
+export type MarqueeProps = {
+    words: string[];
+    image: StaticImageData;
+};
